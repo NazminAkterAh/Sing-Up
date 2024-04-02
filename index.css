@@ -1,0 +1,72 @@
+
+*{
+    box-sizing: border-box;
+    
+}
+:root{
+    --padding:1rem;
+}
+
+main{
+    background-color: aliceblue;
+    height: auto;
+    text-align: center;
+}
+
+h1 h3 h4 p{
+   margin-left: 1.6%;
+}
+
+.parent_div{
+    background-color: white;
+    width: 40%;
+    height: 100vh;
+    margin-right: 28%;
+    margin-top: 1rem;
+    padding: .2rem;
+}
+
+.btn{
+    background-color: rgb(170, 188, 203);
+    border: none;
+    border-radius: .3rem;
+    height: 3rem;
+    padding: var(--padding);
+    border-radius: 1px solid white;
+
+}
+    .btn_name{
+    width: 15rem;
+    margin-left: 1.6%;
+}
+
+.btn_email{
+    width: 24rem;
+    margin-left: 1.6%;
+    margin-top: .50rem;
+    padding: var(--padding);
+}
+
+.date{
+    width: 24rem;
+    height: 2.5rem;
+    margin-left: 1.6%;
+    border: none;
+    border-radius: .3rem;
+    border: 1px solid white;
+
+}
+
+span{
+    color: rgb(100, 225, 225);
+}
+.sing{
+    background-color: chartreuse;
+    color: aliceblue;
+    border: none;
+    border-radius: .3rem;
+    height: 2.8rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    margin-left: 25%;
+}
